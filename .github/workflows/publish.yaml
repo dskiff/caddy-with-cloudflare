@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@6b42224f41ee5dfe5395e27c8b2746f1f9955030
 
       - name: Log in to the Container registry
-        uses: docker/login-action@3b8fed7e4b60203b2aa0ecc6c6d6d91d12c06760
+        uses: docker/login-action@1f36f5b7a2d2f7bfd524795fc966e6d88c37baa9
         with:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
